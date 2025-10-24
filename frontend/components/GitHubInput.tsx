@@ -119,12 +119,7 @@ export const GitHubInput = ({
             Create a token
           </a>
         </p>
-        <p className="text-sm text-gray-400">
-          Example:{" "}
-          <span className="text-blue-400">
-            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
-          </span>
-        </p>
+        <p className="text-sm text-gray-400">Example: </p>
       </div>
 
       {/* Generate Button */}
