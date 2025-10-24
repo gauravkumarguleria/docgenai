@@ -1,8 +1,7 @@
-How to setup this project :
 
-# Project Name
+# Docgenai - AI Docker Image Generator from Github
 
-Docgenai - AI Docker Image Generator from Github
+
 
 ## Prerequisites
 
