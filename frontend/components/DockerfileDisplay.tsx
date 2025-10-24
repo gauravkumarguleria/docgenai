@@ -106,7 +106,6 @@ export const DockerfileDisplay = ({
           </Button>
         </div>
         <div className="p-6 bg-[hsl(var(--code-background))] overflow-x-auto">
-          {/* I removed the <p>hello</p> you had here, assuming it was for testing */}
           <pre className="text-sm font-mono leading-relaxed text-foreground whitespace-pre-wrap">
             {dockerfile}
           </pre>

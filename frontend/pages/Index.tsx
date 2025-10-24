@@ -60,8 +60,6 @@ const Index = () => {
 
     // Simulating API call delay for demonstration
     await new Promise((resolve) => setTimeout(resolve, 2000));
-    alert("GitHub Push (Simulation Complete)!\nYour real API logic goes here.");
-
     setIsPushing(false);
   };
 
@@ -112,7 +110,7 @@ const Index = () => {
               setDockerfile(null);
               setRepoInfo(null);
             }}
-            onPushToRepo={handlePushToRepo} 
+            onPushToRepo={handlePushToRepo}
             isPushing={isPushing}
           />
         )}
