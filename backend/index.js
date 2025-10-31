@@ -26,6 +26,11 @@ app.use(
 connectDB();
 
 // Routes
+app.get("/", (request, response) => {
+  response.setHeader("Content-Type", "text/html");
+  // Send the simple HTML string
+  response.status(200).send("<h1>Hello, world!</h1>");
+});
 app.use("/api/docker", dockerRoutes);
 
 const PORT = process.env.PORT || 8000;
